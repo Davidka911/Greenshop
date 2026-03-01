@@ -1,17 +1,52 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grenshop</title>
-</head>
-<body>
-    <header></header>
-    <main>
-        <section>
-        <h1> </h1>
-        <p> </p>    
-        </section>
-    </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREENSHOP</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form>
+      <h2 class="title">
+        Login | <span>Register</span>
+      </h2>
+      <p class="text">Enter your email and password to register.</p>
+      <div class="form-group"> 
+        <input type="text" id="Username" name="Username" placeholder="Username" />
+      </div>
+      <div class="form-group">
+        <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Enter your email address"
+      />
+    </div>
+    <div class="form-group">
+      <input type="text" id="password" name="password" placeholder="Password" />
+    </div>
+    <div class="form-group">
+      <input
+        type="text"
+        name="Confirm_password"
+        id="Confirm_password"
+        placeholder="Confirm Password"/>
+      </div>
+      <p>
+        <button type="submit" class="submit-button">Register</button>
+      </p>
+      <div class="social-divider">Or register with</div>
+      <button type="button" class="social-button">
+        <img src="./image/google.png" alt="Group" /> Continue with Google
+      </button>
+      <br /><br />
+      <button type="button" class="social-button">
+        <img src="./image/facebook.png" alt="facebook_1" /> Continue with
+        Facebook
+      </button>
+    </form>
+    <div class="bottom-border"></div>
+  </body>
 </html>
